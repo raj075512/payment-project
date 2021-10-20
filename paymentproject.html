@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment project</title>
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+    <div class="container">
+    <form action="">
+        <h1 class="main"  > PAYMENT FORM </h1><br><br>
+     <h2>User details</h2>
+     <p> Name: *<input type="text"  name="name" required></p>
+     <fieldset   heigth="10">  <legend> Gender* </legend>
+      <p>male <input type="radio" name="gender"  id="male"></p> 
+      <p>female <input type="radio" name="gender"  id="female"></p> 
+    </fieldset>
+    <p>pincode <input type="number" name="pincode" id="pincode">    </p>
+    <p>gamil : <input type="email"  name="email" id="email"></p>
+    <p>
+        <h3>address <textarea  name="address" id=" address" rows="10" cols="50" ></textarea>
+    </p>
+     <hr>
+     <hr>
+     <h2>card information</h2>
+     <p>Card type :
+         <select name="card " id="card">
+             <option value="" >----select a card type -----</option>
+             <option value=" visa">visa</option>
+             <option value="mastercard">mastercard</option>
+             <option value="rupYYY">ruPYYY</option>
+
+
+         </select>
+
+     </p>
+     <p>
+         card number : <input type="number" name="number" id="number">
+     </p>
+     <p>
+         card experiration_date:: <input type="date" name="exp_date" id="exp_date">
+     </p>
+     <p>
+         CVV <input type="password" name="cvv" id="cvv">
+     </p>
+     <input type="submit" name="pay_now" id="pay_now">
+    </form>
+    </div>
+</body>
+</html>
